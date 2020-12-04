@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>books</title>
+</head>
+<body>
+    <div class="sear" id="sear"><input type="text" class="inp" id="inp"><button class="but" id="but" onclick="searchBooks(document.getElementById('inp').value)">add</button></div>
+    <input type="radio" name="rad" class="rad" id="rad" onclick="radios('partial')"><span>Возвращает результаты, в которых можно просмотреть хотя бы часть текста.</span>
+    <br>
+    <input type="radio" name="rad" class="rad" id="rad" onclick="radios('full')"><span>Возвращает только результаты, в которых виден весь текст.</span>
+    <br>
+    <input type="radio" name="rad" class="rad" id="rad" onclick="radios('free-ebooks')"><span>Возвращает только те результаты, которые являются бесплатными электронными книгами Google.</span>
+    <br>
+    <input type="radio" name="rad" class="rad" id="rad" onclick="radios('paid-ebooks')"><span>Возвращает только результаты, которые являются электронными книгами Google с ценой.</span>
+    <br>
+    <input type="radio" name="rad" class="rad" id="rad" onclick="radios('ebooks')"><span>Возвращает только результаты, являющиеся платными или бесплатными электронными книгами Google. Примерами не-электронных книг могут быть материалы издателя, доступные в ограниченном предварительном просмотре и не предназначенные для продажи, или журналы.</span>
+    <script src="index.js"></script>
+</body>
+</html>
