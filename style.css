@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inp{
+    width: 70%;
+    height: 4vh;
+    font-size: 25px;
+}
+.but{
+    width: 30%;
+    height: 4.6vh;
+    font-size: 25px;
+}
+.sear{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.book{
+    width: 80%;
+    text-align: center;
+    display: grid;
+    grid-template-areas: ". a a a"
+                         ". a a a";
+    margin: 50px;
+    border-top: white 2px solid;
+}
+img{
+    grid-area: a;
+    align-self: center;
+    justify-items: center;
+}
+a{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+}
+body{
+    background: #000;
+}
+span{
+color: white;
+}
